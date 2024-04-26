@@ -36,3 +36,316 @@
     transform: rotate(360deg);
   }
 }
+.head {
+  color: whitesmoke;
+}
+.image {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(0deg, black, rgba(43, 42, 42, 0.106)),
+    url("https://images.pexels.com/photos/4145354/pexels-photo-4145354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.containers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+
+.card-container {
+  margin-bottom: 20px;
+}
+.loader {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+
+.upload-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.upload-input {
+  margin: 10px;
+}
+
+.upload-btn {
+  background-color: navy;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.analysis-results {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.styled-table thead tr {
+  background-color: #F3F3F4;
+  color: #6F6F6F;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+/* Zebra striping for rows */
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f4;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.progress-container {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.progress-bar {
+  height: 10px;
+  border-radius: 8px;
+  background-color: #6200ea;
+}
+
+.score-text {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+
+/* Additional styles to match the screenshot might include custom fonts, icons, and alignment */
+.styled-table tfoot tr {
+  background-color: #F3F3F4;
+  color: #6F6F6F;
+}
+
+.styled-table tfoot tr td {
+  padding: 12px 15px;
+  font-weight: bold;
+}
+
+.total-score {
+  font-size: 1.2em; /* Adjust the font size as needed */
+  /* Additional styling for total score */
+}
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f0f0f0; /* Or any other background color you prefer */
+}
+
+.login-container {
+  display: flex;
+  max-width: 900px; /* Adjust as per your design */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.login-form {
+  padding: 50px;
+  flex: 1;
+}
+
+.login-form h2 {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.login-form p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.btn-primary {
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Add styles for 'Remember Me', 'Forgot Password?' and social buttons as needed */
+
+.login-illustration {
+  padding: 30px;
+  text-align: center;
+  background: #f7f7f7; /* Adjust the color to match the design */
+}
+
+.login-illustration img {
+  max-width: 100%;
+  height: auto;
+}
+
+.login-illustration p {
+  color: #666;
+}
+
+/* Media queries to handle responsiveness */
+@media (max-width: 768px) {
+  .login-wrapper {
+    flex-direction: column;
+  }
+  
+  .login-container {
+    width: auto;
+    margin: 20px;
+  }
+}
+.illustration-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover; /* This will ensure the image covers the area without stretching */
+  object-position: center; /* Center the image within the element */
+}
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #f0f0f0; /* Adjust the background color as needed */
+}
+
+.login-container {
+  display: flex;
+  width: 70%; /* Adjust width as needed */
+  max-width: 1200px; /* Adjust max width as needed */
+  height: 600px; /* Or whatever height you prefer */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.login-illustration {
+  flex: 1; /* Take up half the space of the login-container */
+  display: flex; /* Use flex to center the content */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 0; /* No padding */
+  background: #f7f7f7; /* Adjust the color to match the design */
+}
+
+.login-illustration img {
+  width: 100%; /* Make the image full width of its container */
+  height: 100%; /* Make the image full height of its container */
+  object-fit: cover; /* Cover the area, may crop the image */
+}
+
+.login-section {
+  flex: 1; /* Take up the remaining space */
+  padding: 50px; /* Adjust padding as needed */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-form {
+  /* Style your form here */
+}
+
+/* Apply responsive adjustments */
+@media (max-width: 768px) {
+  .login-container {
+    flex-direction: column;
+    height: auto; /* Let the container size according to its content */
+  }
+  .login-illustration img {
+    width: auto; /* Adjust to maintain aspect ratio */
+    height: 200px; /* Set a fixed height for the illustration on smaller screens */
+  }
+}
+
+.required-star {
+  color: red;
+  margin-left: 0.25rem;
+}
+.modal-content {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000; /* Ensure the modal appears above other content */
+  max-width: calc(100% - 40px); /* Set a maximum width for the modal */
+  width: 65%; /* Set a width for the modal */
+}
+
+
+.modal-overlay {
+background-color: rgba(0, 0, 0, 0.5);
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+z-index: 999; /* Ensure the overlay is behind the modal but above other content */
+}
+
+.modal-close-button {
+position: absolute;
+top: 10px; /* Adjust the top position as needed */
+right: 10px; /* Adjust the right position as needed */
+background: none;
+border: none;
+color: inherit;
+}
+
+
+
+.modal-close-button:hover, .modal-close-button:focus {
+  background: none;
+  outline: none; /* Removes focus outline */
+}
+
+

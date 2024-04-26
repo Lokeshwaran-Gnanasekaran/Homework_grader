@@ -1,0 +1,140 @@
+{
+    "1": {
+        "questions": [
+            { "question": "Explain the time complexity of Merge Sort.", "answer": "Merge Sort operates in O(n log n) time complexity in all the cases.", "score": 10, "studentScore": 10 },
+            { "question": "Which sorting algorithm works best on nearly sorted data?", "answer": "Insertion Sort", "score": 10, "studentScore": 10 },
+            { "question": "How does Quick Sort perform on average?", "answer": "Quick Sort performs well on average with a time complexity of O(n log n).", "score": 10, "studentScore": 8 },
+            { "question": "What is the worst-case complexity of Quick Sort?", "answer": "O(n^2)", "score": 5, "studentScore": 5 },
+            { "question": "Describe the partition process in Quick Sort.", "answer": "Elements are divided around a pivot.", "score": 5, "studentScore": 5 },
+            { "question": "What sorting algorithm uses a heap?", "answer": "Heap Sort", "score": 5, "studentScore": 5 },
+            { "question": "What is the best case performance of Bubble Sort?", "answer": "O(n)", "score": 5, "studentScore": 5 },
+            { "question": "How does Radix Sort handle sorting?", "answer": "Sorting digits from least to most significant.", "score": 5, "studentScore": 4 },
+            { "question": "Which sorting algorithm is stable?", "answer": "Merge Sort", "score": 5, "studentScore": 5 },
+            { "question": "Compare Merge Sort and Quick Sort.", "answer": "Merge Sort is stable, Quick Sort is faster on average.", "score": 5, "studentScore": 4 }
+        ],
+        "totalScore": 65,
+        "studentTotalScore": 61
+    },
+    "2": {
+        "upload": true,
+        "questions": [
+            { "question": "Describe the normalization process in database design.", "answer": "Normalization involves organizing columns and tables to reduce data redundancy.", "score": 10, "studentScore": 10 },
+            { "question": "What is ACID in databases?", "answer": "ACID stands for Atomicity, Consistency, Isolation, Durability.", "score": 10, "studentScore": 8 },
+            { "question": "Define indexing in databases.", "answer": "Indexing is a data structure technique used to quickly locate and access the data in a database.", "score": 10, "studentScore": 9 },
+            { "question": "What is a primary key?", "answer": "A primary key is a field in a table which uniquely identifies each row/record in that table.", "score": 10, "studentScore": 7 },
+            { "question": "Explain a foreign key in a database.", "answer": "A foreign key is a column or a set of columns in one table that uniquely identifies a row of another table or the same table.", "score": 10, "studentScore": 5 },
+            { "question": "What are transactions in a database?", "answer": "Transactions are a unit of work performed within a database management system against a database, and treated in a coherent and reliable way independent of other transactions.", "score": 10, "studentScore": 6 },
+            { "question": "Explain the concept of database replication.", "answer": "Database replication involves sharing information to ensure consistency between redundant resources to improve reliability, fault-tolerance, or accessibility.", "score": 10, "studentScore": 10 },
+            { "question": "What are SQL and NoSQL databases?", "answer": "SQL databases are primarily called as Relational Databases; NoSQL database are primarily called as non-relational or distributed database.", "score": 10, "studentScore": 9 },
+            { "question": "What is database denormalization?", "answer": "Denormalization is the process of trying to improve the read performance of a database by adding redundant data or by grouping data.", "score": 10, "studentScore": 8},
+            { "question": "Describe the role of the data dictionary.", "answer": "A data dictionary is a centralized repository of information about data such as meaning, relationships to other data, origin, usage, and format.", "score": 10, "studentScore": 7 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 74
+    },
+    "3": {
+        "notSubmitted": true
+    },
+    "4": {
+        "upload": true,
+        "questions": [
+            { "question": "Explain context switching in operating systems.", "answer": "Context switching is the process of storing and restoring the state (context) of a CPU so that multiple processes can share a single CPU resource.", "score": 10, "studentScore": 5 },
+            { "question": "What is a deadlock?", "answer": "A deadlock is a situation in which two or more competing actions are each waiting for the other to finish, and thus neither ever does.", "score": 10, "studentScore": 10 },
+            { "question": "What are the advantages of multiprogramming?", "answer": "Multiprogramming increases CPU utilization by organizing jobs so that the CPU always has one to execute.", "score": 10, "studentScore": 9 },
+            { "question": "Describe the differences between kernel mode and user mode.", "answer": "Kernel mode is where the system executes most of the operating system functions; user mode is where the user applications run.", "score": 10, "studentScore": 8 },
+            { "question": "Explain virtual memory.", "answer": "Virtual memory is a storage allocation scheme in which secondary memory can be addressed as though it were part of the main memory.", "score": 10, "studentScore": 7 },
+            { "question": "What is thrashing?", "answer": "Thrashing occurs when a system spends more time swapping pages than executing transactions.", "score": 10, "studentScore": 8 },
+            { "question": "How does a modern operating system protect against buffer overflow attacks?", "answer": "Techniques include stack canaries, non-executable stack space, and Address Space Layout Randomization (ASLR).", "score": 10, "studentScore": 10 },
+            { "question": "Describe the role of a scheduler in an OS.", "answer": "The scheduler determines which processes run when there are multiple runnable processes.", "score": 10, "studentScore": 6 },
+            { "question": "What is RAID and its significance in OS?", "answer": "RAID is a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for redundancy.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the concept of file systems in operating systems.", "answer": "A file system organizes and provides a way to store, retrieve and update data in storage.", "score": 10, "studentScore": 4 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 76
+    },
+    "5": {
+        "questions": [
+            { "question": "Define symmetric and asymmetric encryption.", "answer": "Symmetric uses the same key for encryption and decryption; asymmetric uses a public and a private key.", "score": 10, "studentScore": 8 },
+            { "question": "What is a digital signature?", "answer": "A digital signature is a mathematical scheme for demonstrating the authenticity of a digital message or documents.", "score": 10, "studentScore": 9 },
+            { "question": "Explain what SSL/TLS does.", "answer": "SSL/TLS is a security protocol that provides communications security over a computer network.", "score": 10, "studentScore": 9 },
+            { "question": "What is the purpose of a firewall?", "answer": "A firewall is a network security device that monitors and controls incoming and outgoing network traffic based on predetermined security rules.", "score": 10, "studentScore": 7 },
+            { "question": "Describe a VPN and its use cases.", "answer": "A VPN, or Virtual Private Network, extends a private network across a public network, enabling users to send and receive data across shared or public networks as if their computing devices were directly connected to the private network.", "score": 10, "studentScore": 8 },
+            { "question": "What is the role of an intrusion detection system?", "answer": "An intrusion detection system (IDS) is a device or software application that monitors a network or systems for malicious activity or policy violations.", "score": 10, "studentScore": 8 },
+            { "question": "How does token-based authentication work?", "answer": "Token-based authentication is a protocol wherein the user obtains a token after presenting their login credentials. Once authenticated, the token is used to access resources instead of the credentials.", "score": 10, "studentScore": 7 },
+            { "question": "Explain public key infrastructure.", "answer": "Public key infrastructure (PKI) is a set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption.", "score": 10, "studentScore": 9 },
+            { "question": "What is a man-in-the-middle attack?", "answer": "A man-in-the-middle attack is a cyberattack where the attacker secretly relays and possibly alters the communication between two parties who believe they are directly communicating with each other.", "score": 10, "studentScore": 8 },
+            { "question": "Define phishing.", "answer": "Phishing is a type of social engineering attack often used to steal user data, including login credentials and credit card numbers.", "score": 10, "studentScore": 9 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 83
+    },
+    "6": {
+        "notSubmitted": true
+    },
+    "7": {
+        "questions": [
+            { "question": "Explain the concept of inheritance in object-oriented programming.", "answer": "Inheritance is a mechanism in which one class inherits properties and behavior from another class.", "score": 10, "studentScore": 10 },
+            { "question": "What are the benefits of inheritance?", "answer": "Benefits include code reusability, extensibility, and polymorphism.", "score": 10, "studentScore": 9 },
+            { "question": "Differentiate between method overloading and method overriding.", "answer": "Method overloading involves multiple methods with the same name but different parameters; Method overriding involves redefining a method in a subclass with the same signature as in the superclass.", "score": 10, "studentScore": 8 },
+            { "question": "Explain the concept of polymorphism.", "answer": "Polymorphism allows objects of different classes to be treated as objects of a common superclass, enabling dynamic method invocation.", "score": 10, "studentScore": 9 },
+            { "question": "What is an abstract class?", "answer": "An abstract class is a class that cannot be instantiated and may contain abstract methods that must be implemented by subclasses.", "score": 10, "studentScore": 10 },
+            { "question": "Describe the purpose of interfaces in Java.", "answer": "Interfaces define a contract for classes to implement, allowing for multiple inheritance and providing a way to achieve abstraction and loose coupling.", "score": 10, "studentScore": 8 },
+            { "question": "Explain the concept of encapsulation.", "answer": "Encapsulation refers to the bundling of data with the methods that operate on that data, hiding the internal state of an object and protecting it from outside interference.", "score": 10, "studentScore": 9 },
+            { "question": "What is the difference between composition and inheritance?", "answer": "Composition involves creating objects of other classes within a class to reuse functionality, while inheritance involves deriving new classes from existing ones.", "score": 10, "studentScore": 9 },
+            { "question": "Describe the 'is-a' and 'has-a' relationships in object-oriented programming.", "answer": "'Is-a' relationship refers to inheritance, where one class is a subclass of another; 'Has-a' relationship refers to composition, where one class has another class as a member.", "score": 10, "studentScore": 8 },
+            { "question": "How can you achieve runtime polymorphism in Java?", "answer": "Runtime polymorphism can be achieved through method overriding, where the method to be executed is determined at runtime based on the object type.", "score": 10, "studentScore": 9 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 90
+    },
+    "8": {
+        "upload": true,
+        "questions": [
+            { "question": "What is Node.js?", "answer": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine that allows developers to run JavaScript code on the server-side.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the concept of non-blocking I/O in Node.js.", "answer": "Non-blocking I/O allows Node.js to handle multiple requests simultaneously without waiting for previous requests to complete, resulting in better performance and scalability.", "score": 10, "studentScore": 8 },
+            { "question": "What are the advantages of using Node.js?", "answer": "Advantages include event-driven architecture, asynchronous programming model, large ecosystem of packages (npm), and scalability.", "score": 10, "studentScore": 9 },
+            { "question": "Describe the role of the event loop in Node.js.", "answer": "The event loop is a single-threaded mechanism that handles I/O operations asynchronously, allowing Node.js to perform non-blocking I/O operations efficiently.", "score": 10, "studentScore": 8 },
+            { "question": "How does Node.js handle concurrency?", "answer": "Node.js uses an event-driven, non-blocking I/O model that allows it to handle multiple connections simultaneously without spawning new threads for each request.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the purpose of the 'require' function in Node.js.", "answer": "The 'require' function is used to import modules in Node.js, allowing developers to use external functionality in their applications.", "score": 10, "studentScore": 8 },
+            { "question": "What is npm?", "answer": "npm (Node Package Manager) is a package manager for Node.js that allows developers to install, share, and manage dependencies for their Node.js projects.", "score": 10, "studentScore": 9 },
+            { "question": "How can you handle errors in Node.js?", "answer": "Errors in Node.js can be handled using try-catch blocks, error-first callbacks, or by using middleware such as Express.js error handling middleware.", "score": 10, "studentScore": 8 },
+            { "question": "Describe the concept of middleware in Node.js.", "answer": "Middleware in Node.js are functions that have access to the request and response objects, and can modify or terminate the request-response cycle.", "score": 10, "studentScore": 9 },
+            { "question": "What is event-driven programming?", "answer": "Event-driven programming is a programming paradigm where the flow of the program is determined by events such as user actions, system notifications, or messages from other programs.", "score": 10, "studentScore": 8 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 85
+    },
+    "9": {
+        "questions": [
+            { "question": "What is the perceptron algorithm?", "answer": "The perceptron algorithm is a supervised learning algorithm used for binary classification of data into two categories.", "score": 10, "studentScore": 8 },
+            { "question": "How does the perceptron make predictions?", "answer": "The perceptron computes the weighted sum of its inputs and applies a step function to determine the output.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the concept of a threshold in the perceptron algorithm.", "answer": "The threshold is a value that determines whether the perceptron fires or not based on the weighted sum of inputs.", "score": 10, "studentScore": 7 },
+            { "question": "What are the limitations of the perceptron algorithm?", "answer": "The perceptron cannot learn non-linearly separable patterns and requires a linear decision boundary.", "score": 10, "studentScore": 8 },
+            { "question": "Describe the perceptron learning rule.", "answer": "The perceptron learning rule adjusts the weights of the inputs based on the error in the prediction.", "score": 10, "studentScore": 9 },
+            { "question": "What is a bias unit in neural networks?", "answer": "A bias unit is an input node that always outputs 1, used to shift the decision boundary of the perceptron.", "score": 10, "studentScore": 7 },
+            { "question": "How can you extend the perceptron algorithm to handle multiple classes?", "answer": "By using techniques such as one-vs-all or one-vs-one to train multiple perceptrons, each representing a different class.", "score": 10, "studentScore": 8 },
+            { "question": "Explain the concept of the activation function in neural networks.", "answer": "The activation function determines the output of a neuron given its input, enabling neural networks to model complex relationships.", "score": 10, "studentScore": 9 },
+            { "question": "What are some common activation functions?", "answer": "Common activation functions include sigmoid, tanh, ReLU, and softmax.", "score": 10, "studentScore": 7 },
+            { "question": "What is gradient descent?", "answer": "Gradient descent is an optimization algorithm used to minimize the error of a neural network by adjusting the weights and biases based on the gradient of the error function.", "score": 10, "studentScore": 8 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 80
+    },
+    "10": {
+        "upload": true,
+        "questions": [
+            { "question": "What is Docker?", "answer": "Docker is a platform for developing, shipping, and running applications in containers.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the concept of containerization.", "answer": "Containerization is a lightweight alternative to full machine virtualization that involves encapsulating an application and its dependencies into a container.", "score": 10, "studentScore": 8 },
+            { "question": "What are the benefits of using Docker?", "answer": "Benefits include consistency across environments, isolation of dependencies, scalability, and resource efficiency.", "score": 10, "studentScore": 9 },
+            { "question": "Describe the difference between Docker images and containers.", "answer": "A Docker image is a read-only template used to create containers, while a container is a runnable instance of an image.", "score": 10, "studentScore": 8 },
+            { "question": "How does Docker ensure isolation between containers?", "answer": "Docker uses namespaces and control groups (cgroups) to provide process isolation, resource allocation, and access control for containers.", "score": 10, "studentScore": 9 },
+            { "question": "Explain the purpose of Dockerfile.", "answer": "A Dockerfile is a text file that contains instructions for building a Docker image.", "score": 10, "studentScore": 8 },
+            { "question": "What is Docker Hub?", "answer": "Docker Hub is a cloud-based registry service for storing and sharing Docker images.", "score": 10, "studentScore": 9 },
+            { "question": "How can you link containers in Docker?", "answer": "Containers can be linked using the --link flag or through user-defined networks in Docker Compose.", "score": 10, "studentScore": 8 },
+            { "question": "Describe the role of Docker Compose.", "answer": "Docker Compose is a tool for defining and running multi-container Docker applications.", "score": 10, "studentScore": 9 },
+            { "question": "What are some alternatives to Docker?", "answer": "Alternatives include Kubernetes, Podman, and containerd.", "score": 10, "studentScore": 8 }
+        ],
+        "totalScore": 100,
+        "studentTotalScore": 85
+    }
+}
